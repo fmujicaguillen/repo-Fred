@@ -18,15 +18,17 @@
                     type="text" 
                     id="nombres"
                     placeholder="Ingrese sus nombres"
-                    value="Jorge"
+                    required
+                    minlength="2"
+                    maxlength="10"
                 >
                 <br>
                 <label for="apellidos">Apellidos:</label>
                 <input
                     type="text"
-                    placeholder="Ingrese sus apellidos"
                     id="apellidos"
-                    
+                    placeholder="Ingrese sus apellidos"
+                    required
                 >
                 <br>
                 <label for="correo">email:</label>
@@ -49,6 +51,8 @@
                     type="number"
                     placeholder="Solo números"
                     id="edad"
+                    min="0"
+                    max="140"
                 >
                 <br>
                 <label>Género</label>
@@ -110,7 +114,10 @@
                 <br>
                 <label>Biografía</label>
                 <textarea cols="20" rows="5"></textarea>
-                 
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+                <button>Click</button> 
 
             </form>
         </section>
