@@ -1,0 +1,22 @@
+section{
+    background-color: aquamarine;
+}
+
+/* LLamar a clases se utiliza "." y n_clase */
+.rojo{
+    color: red;
+
+}
+
+.bordeazul{
+    border: 2px solid blue;
+}
+
+.sub{
+    text-decoration: underline;
+}
+
+#importante{
+    font-family: "courier new";
+    background-color: peru;
+}
