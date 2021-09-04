@@ -21,4 +21,5 @@ article > p {
 }
 
 /*PESEUDOCLASES */
-
+/* nth-of-type (numero o indicador) */
+tr:nth-of-type()
