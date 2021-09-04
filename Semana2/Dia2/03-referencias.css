@@ -22,5 +22,11 @@ article > p {
 }
 
 /*PESEUDOCLASES */
-/* nth-of-type (numero o indicador) */
-tr:nth-of-type()
+/* nth-of-type (numero o indicador) odd impares*/
+tr:nth-of-type(odd){
+    background-color: chocolate;
+}
+
+tr:nth-of-type(even){
+    background-color: greenyellow;
+}
