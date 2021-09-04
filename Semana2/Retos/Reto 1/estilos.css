@@ -1,0 +1,19 @@
+input,h2,h3{
+    
+    font-family: arial;
+    font-weight: bold;
+      
+    
+}
+
+.next{
+    background-color:rgb(11, 161, 104) !important;
+    color: white;
+    font-size: 14px;
+   
+}
+
+form > input{
+    height: 20px;
+
+}
