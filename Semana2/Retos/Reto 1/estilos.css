@@ -1,19 +1,39 @@
-input,h2,h3{
-    
+input,h3,h4{   
     font-family: arial;
     font-weight: bold;
-      
+          
+}
+
+h4{
+   color: gray;
     
 }
 
 .next{
-    background-color:rgb(11, 161, 104) !important;
+    background-color:rgb(25, 158, 118);
     color: white;
-    font-size: 14px;
-   
+    font-size: 15px;
+    height: 35px;
+    width: 110px;
+    
+
 }
 
 form > input{
-    height: 20px;
+    height: 28px;
+    width: 220px;
 
+}
+
+input {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 9px 18px;
+    margin: 6px;
+    border: 1.5px solid rgb(204, 199, 199);
+        
+}
+::placeholder {
+    color: rgb(197, 187, 187);
+    
 }
