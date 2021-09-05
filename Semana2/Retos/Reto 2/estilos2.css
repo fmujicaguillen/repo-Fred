@@ -1,44 +1,66 @@
-
 body{
     font-family: Arial, sans-serif;
     font-weight: bolder;
-    font-size: 11px;
-    margin: 27px;
-    color: red; 
+    font-size: 8px;
+    margin: 15px; 
+}
+input > text {
+    color: black;
 }
 
-text{
-    margin: 6px;
-    border: 1.5px blue; /*solid rgb(204, 199, 199);*/
-    width: 110px;
-    size: 12px;
-    background-color: red;
-    padding: 11117px;
-    text-transform: uppercase;
+input {  
+    margin: 2px;
+    border: 1.5px solid rgb(204, 199, 199); 
 }
 
-input {
-    background-color:green;  
-    margin: 7px;
+#fname{
+    width: 200px;
+    height: 15px;
+    margin: 2px;
     border: 1.5px solid rgb(204, 199, 199);
-  
+}
+#age{
+    width: 200px;
+    height: 15px;
+    margin: 2px;
+    border: 1.5px solid rgb(204, 199, 199);
+}
+#income{
+    width: 200px;
+    height: 18px;
+    margin: 2px;
+    border: 1.5px solid rgb(204, 199, 199);
 }
 
 textarea{
-    width: 230px;
+    width: 200px;
     border: 1.5px solid rgb(204, 199, 199); 
-    margin: 7px;
+    margin: 2px;
 }
 form >label{
-    padding: 7px;
-    font-size: 11px;
-    color:violet;     
+    /*padding: 7px;*/
+    margin: 2px;
+    font-size: 9px;          
 }
 
 .seleccion{ 
-    margin: 7px;
-    border-radius: 4px;
-    width: 230px;
-    color:brown;  
-    border: 1.5px solid rgb(204, 199, 199); 
+    font-size: 10px;
+    margin: 2px;
+    border-radius: 4px;   
+    width: 200px;
+    height: 20px; 
+    border: 1.5px solid rgb(204, 199, 199);
+     
+}
+
+.update{
+    background-color: rgb(50, 95, 230);
+    color: white;
+    font-size: 10px;
+}
+
+form{
+    
+    margin-left: auto;
+    margin-right: auto;
 }
