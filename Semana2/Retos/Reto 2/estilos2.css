@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 11px;
+    
+}
+/*padding: 4px 50px;*/
+/*input {
+    background-color: #fff;  
+    margin: 6px;
+    border: 1.5px solid rgb(204, 199, 199);
+    
+}
+*/
+text{
+    margin: 6px;
+    border: 1.5px solid rgb(204, 199, 199);
+    width: 110px;
+    size: 12px;
+    background-color: red;
+}
+
+form >label{
+    padding: 7px;
+    font-size: 11px;  
+     
+}
+
+.seleccion{
+    
+    margin: 6px;
+    border-radius: 4px;
+    text-align: right;
+    width: 80px;
+    
+    
+    border: 1.5px solid rgb(204, 199, 199);
+    
+
+}
