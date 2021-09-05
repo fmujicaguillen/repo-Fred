@@ -13,19 +13,25 @@
     </header>
     <main>
         <section>
-            <form>
+            <form class="centrar">
+                </label>
                 <label>First name</label>
                 <br>
                 <input 
                 type="text"
-                id="fname"                
+                id="fname"
+                minlength="7"
+                required                
                 >
                 <br><br>
                 <label>Age</label>
                 <br>
                 <input
-                type="text"
+                type="number"
                 id="age"
+                min="0"
+                max="140"
+                required
                 >
                 <br><br>
                 <label>Income</label>
@@ -33,6 +39,8 @@
                 <input
                 type="text"
                 id="income"
+                minlength="7"
+                required
                 >
                 <br><br>
                 <label>More Info</label>
