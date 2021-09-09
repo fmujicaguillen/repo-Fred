@@ -1,0 +1,13 @@
+h1{
+    color: peru;
+}
+h2{
+    color:#405dfc;
+}
+h3{
+    color: rgb(255, 85, 197);
+}
+
+p{
+    background-color: hsl(300,50%,70%);
+}
