@@ -1,8 +1,16 @@
+/* tdos los elemenos tengan un borde*/
+*{
+    border: 1px solid red;
+}
+
 h1{
     color: peru;
+    width: 50%;
+    border: 1px solid blueviolet;
+    height: 20%;
 }
 h2{
-    color:#405dfc;
+    color:#555;
 }
 h3{
     color: rgb(255, 85, 197);
@@ -10,4 +18,9 @@ h3{
 
 p{
     background-color: hsl(300,50%,70%);
+}
+
+header {
+    width: 400px;
+    height: 200px;
 }
