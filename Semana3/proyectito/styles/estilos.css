@@ -43,6 +43,14 @@ button{
     color: white;
     max-height: 40px;
 }
+
+
+button:hover{
+    /* puntero encima*/
+    background-color: white;
+    color: darkgray;
+}
+
 .hero{
     padding: 80px;
     display: flex;
