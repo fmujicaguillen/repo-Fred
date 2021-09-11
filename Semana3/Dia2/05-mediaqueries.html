@@ -7,6 +7,7 @@
     <style>
         h1{
             background-color: blueviolet;
+            font-size: calc(14px + 3vw);
         }
 
         .titulares, .noticia{
@@ -39,6 +40,19 @@
             h1{
                 background-color: orangered;
             }
+
+            .titulares{
+                flex-direction: column;
+            }
+            .noticia{
+                max-width: 100%;
+            
+            }
+        }
+        header{
+            /* todo el espacio util del viewport */
+            width: 100vw;
+            height: 100vh;
         }
 
 
