@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box; /* */
     /* guia temporal, donde comienza y termina elements*/
-    border:1px solid blue;
+   
     font-family: "Open Sans", Arial,sans-serif;
 }
 
@@ -74,7 +74,7 @@ button:hover{
 /* TARJETAS */
 
 .caracteristicas{
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 50px;
 }
@@ -85,6 +85,8 @@ button:hover{
 
 .tarjetas{
     display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0;
 
 }
 
