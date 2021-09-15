@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: sans-serif;
+   border:solid 1px blue;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    
+
+}
+
+.contenedor{
+    background-color: black;
+   
+}
+
+.imagessn {
+    margin: 3px 3px;
+    
+    
+}
+
+.primer{
+    max-width: 480px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: red;
+    text-align: center;
+    justify-content:center;
+}
+
+.primer h5{
+    margin: 10px;
+    text-align: center;
+}
+
+.primer h2{
+    background-color: gray;
+    margin:25px;
+}
+
+.cuadros{
+    
+    max-width: 480px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.cuadrito{
+    displssay: flex;
+    fslex-direction: column;
+    
+}
