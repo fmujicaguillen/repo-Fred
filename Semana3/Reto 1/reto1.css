@@ -3,41 +3,36 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    border:solid 1px blue;
+    /* border:solid 1px blue; */
 
 }
 
 header{
-    background-color: black;
     color: white;
-    
-
 }
 
 .contenedor{
     
-    background-color: black;
-    
+    background-color: black;   
 }
 
 img{
     margin: 15px 15px;
 }
 
-.imagessn {
-    margin: 3px 3px;
+/* .imagen {
+    margin: 113px 3px;
     
     
-}
+} */
 
 .primer{
     
     display: flex;
-    
     flex-direction: column;
     align-items: center;
     align-content: center;
-    background-color: red;
+    /* background-color: red; */
     text-align: center;
     justify-content:center;
 }
@@ -52,8 +47,11 @@ img{
     margin:25px;
 }
 
+
+/* TODO LA SECCION DE LOS DIVS*/
+
 .cuadrogrande{
-    border: solid red;
+    /* border: solid green; */
     /* max-width: 900px auto; */
     margin: 0 auto;
     padding: 10px 10px;
@@ -62,6 +60,7 @@ img{
 
 .cuadros{
     /* ppadding: 12px; */
+    /* border: solid 3PX purple; */
     display: flex;
     justify-content: space-between;
      
@@ -70,9 +69,14 @@ img{
 .cuadrito{
     
     padding: 10px;
-    min-width: 500px;
-    background-color: red;
-    text-align: center;   
+    min-width: 280PX;
+    /* height: 700PX; */
+    /* background-color: red; */
+    text-align: center;
+    
+    border: solid rgb(212, 209, 209);
+    box-shadow: 0 0;
+ 
 }
 
 .cuadrito > img{
@@ -83,17 +87,49 @@ img{
     margin: 15px;
 }
 
+.cuadros .cuadrito{
+    margin: 5px;
+}
 
-
-/* .cuadrito:nth-sof-type(2){
-    background-image: linear-gradient(45deg,#3DADA4,#C71FE6);
-    color: white;} */
-
-    @media screen and(max-width: 600px) {
-        .cuadrogrande{
-            display: flex;
-            flex-direction: colum;
-            align-items: center;
-        }
+ @media screen and (max-width:480px){
+    .cuadros{
         
+        flex-direction: column;
     }
+    .cuadrito{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: green; */
+    }
+    
+}
+
+/* @media screen and (max-width:900px){
+    .cuadros{
+        flex-direction: column;
+    }
+    .cuadrito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: pink;
+    }
+    
+} */ 
+
+/* @media screen and (max-width:700px){
+    .cuadros{
+        flex-direction: column;
+        background-color: red;
+    }
+    .cuadrito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: red;
+    }
+    
+} */
