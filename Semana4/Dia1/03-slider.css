@@ -3,12 +3,12 @@
     height: 400px;
     border: 1px solid gray;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .slide{
     width: 600px;
-    height: 300px;
+    height: 400px;
     position: absolute;
     top: 100%;
 }
@@ -32,6 +32,9 @@
 
 .hijo3{
     background-color: cornflowerblue;
+    animation-name: animacion3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 
 }
 
@@ -78,6 +81,28 @@
         top: -100%;
 
     }
+    100%{
+        top: -100%;
+    }
+}
+
+@keyframes animacion3 {
+    0%{
+        top:100%;
+    }
+
+    67%{
+        top: 100%;
+
+    }
+    70%{
+        top: 0%;
+    }
+
+    97%{
+        top: 0%;
+    }
+
     100%{
         top: -100%;
     }
