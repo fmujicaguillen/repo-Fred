@@ -1,0 +1,26 @@
+.padre{
+    width: 600px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+.slide{
+    width: 600px;
+    height: 300px;
+}
+
+.hijo1{
+    background-color: aquamarine;
+
+}
+
+.hijo2{
+    background-color: orangered;
+
+}
+
+
+.hijo3{
+    background-color: cornflowerblue;
+
+}
