@@ -5,9 +5,16 @@
     /* border: 1px solid gray; */
     font-family: Helvetica, sans-serif;
 }
+
+/* body{
+    /* display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px auto; */
+} */
+
 a{
     color: gray;
-    text-decoration: none;
+    text-decoration: none; /* no tengo subrayado */
 }
 header{
     border-bottom: 1px solid #eee;
@@ -49,7 +56,7 @@ input{
     flex-wrap: wrap;
     width: 900px;
     /* se le pone alto para que entren los elementos, de ahi el 350vh */
-    height: 350vh;
+    height: 150vh;
 }
 
 .tile{
