@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+
+}
+
+body{
+    background-image: linear-gradient(to right, #260537, #3a094c, #4f0c61, #670f76, #800f8b);
+    display: flex;
+    justify-content: center;
 
 }
  
@@ -10,11 +18,12 @@
     display: grid;
     height: 50vh;
     /* border: solid 1px red; */
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5,100px);
     grid-template-rows: repeat(3,1fr);
     gap: 25px;
-    margin: 20px;
-    padding: 15px;
+    margin-top: 200px;
+   
+    
 }
 
 
