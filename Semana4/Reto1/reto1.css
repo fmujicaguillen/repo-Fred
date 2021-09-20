@@ -9,18 +9,18 @@
 .contenedor{
     display: grid;
     height: 50vh;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(3,1fr);
     gap: 25px;
-    margin: 25px;
-    padding: 20px;
+    margin: 20px;
+    padding: 15px;
 }
 
 
 .item  {
-    border: 1px solid blue;
-    tex
+    /* border: 1px solid blue; */
+    color:transparent;
     
 }
 
@@ -29,7 +29,7 @@ div{
 }
 
 .item:nth-of-type(1){
-    background-color: green;
+    background-color: rgb(9, 151, 97);
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -46,14 +46,14 @@ div{
 }
 
 .item:nth-of-type(5){
-    background-color:pink;
+    background-color:rgb(216, 111, 172);
     grid-column-start: 1;
     grid-column-end: 3;
 
 }
 
 .item:nth-of-type(3){
-    background-color:brown;
+    background-color:rgb(146, 76, 76);
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 2;
@@ -61,7 +61,7 @@ div{
 }
 
 .item:nth-of-type(4){
-    background-color:greenyellow;
+    background-color:rgb(7, 119, 82);
   
 }
 
