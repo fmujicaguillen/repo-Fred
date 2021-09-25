@@ -53,12 +53,27 @@ function revisarPresupuesto(){
 }
 // agregaACarrito tiene q trabajar con la Lista de los juegos que el usuario puede comprar
 function agregarAcarrito(listaJuegos){
-    //confirm pregunta y obtiene un booleano
+    let carrito=[]
+   
    for (let j = 0 ;  j < listaJuegos.length ; j++){
+        //como necesito saber si al comprar un juego puedo comprar el //siguiente sin quedarme sin plata
+        if(presupuesto < listaJuegos[j].precio){
+            console.log("Lo siento, no alcanza :( ")
+            continue; //salta
+        } 
+
+       //confirm pregunta y obtiene un booleano
        let compra = confirm(`Deseas comprar ${listaJuegos[j]}`);
        console.log(compra);
+       if (compra==true){
+           carrito.push(listaJuegos[j])
+           //actualizando mi presupuesto segun vaya comprando
+           presupuesto = presupuesto - listaJuegos[j].precio
+       }
 
    }
+   // despues el for carrito estará lleno
+   return carrito
 
 }
 
@@ -66,5 +81,8 @@ let listaComprables = revisarPresupuesto();
 console.table(listaComprables); // table en una regla
 // Despues de saber que juegos puede comprar el usuario 
 // le pregunto cual o cuales compra
-55
-agregarAcarrito(listaComprables);
+
+ let miCarrito = agregarAcarrito(listaComprables);
+ console.log("Haz comprado");
+ console.log(miCarrito);
+ console.log(`tu vuelto es ${presupuesto}`)
