@@ -20,7 +20,8 @@ let albumMusical = {
     nombre:"After Hours",
     fechaLanzamiento:"20/03/2020",
     genero:["Dream Pop","Drum and Bass"],
-    
+    canciones:[]
+
 
 
 
