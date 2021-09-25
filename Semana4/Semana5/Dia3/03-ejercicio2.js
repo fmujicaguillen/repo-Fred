@@ -56,6 +56,11 @@ function agregarAcarrito(listaJuegos){
     let carrito=[]
    
    for (let j = 0 ;  j < listaJuegos.length ; j++){
+
+    //como puedo hacer para comprar todo
+    //1. evaluar si me alcanza para comprar todo, si es verdadero
+    //2. agregar todo a carrito
+    //2.1 for, que agregue todo directamente
         //como necesito saber si al comprar un juego puedo comprar el //siguiente sin quedarme sin plata
         if(presupuesto < listaJuegos[j].precio){
             console.log("Lo siento, no alcanza :( ")
