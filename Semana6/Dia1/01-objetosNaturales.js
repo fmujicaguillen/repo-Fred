@@ -24,3 +24,23 @@ let diasParaNavidad = hastaNavidad / 1000 / 60 / 60 / 24;
 console.log(diasParaNavidad.toFixed(2));
 
 
+//Raiz cuadrada
+console.log(Math.sqrt(144));
+
+//Potencia
+console.log(Math.pow(5, 3));
+
+//Aleatorio
+console.log(Math.random());
+
+
+function aleatorio(min,max){
+    let resultado = Math.random() * (max - min) + min;
+    return resultado;
+}
+
+console.log(aleatorio(5,50));
+
+for (let i = 0; i < 5 ; i++){
+    console.log(aleatorio(5,50));
+}
