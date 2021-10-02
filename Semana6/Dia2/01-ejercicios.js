@@ -410,7 +410,7 @@ let peliculas = [
                       <td>${peli.id}</td>
                       <td>${peli.title}</td>
                       <td>${peli.release_date}</td>
-                      <ts>${peli.original_language}</td>`;
+                      <td>${peli.original_language}</td>`;
         tbody.appendChild(tr);
 
   }) 
