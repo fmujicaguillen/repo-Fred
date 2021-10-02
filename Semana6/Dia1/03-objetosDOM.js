@@ -60,3 +60,54 @@ console.log(miTexto);
 //querySelectorAll me da un NodeList
 let boxes = document.querySelectorAll(".box");
 console.log(boxes);
+
+boxes.forEach(function(bx){
+    bx.innerHTML = `<p>Soy un párrafo</p>`;
+
+});
+
+console.log(boxes[0].innerHTML);
+
+//Crear elementos
+
+let series = [
+    "Squid Game",
+    "Pasion de Gavilanes",
+    "Dark",
+    "Billions",
+    "Got",
+    "Suits",
+    "Mr. Robot",
+    "House of dragons",
+    "Chernobyl",
+    "Breaking Bad",
+    "Lupin",
+]
+
+let divContenido = document.getElementById("contenido");
+
+// createElement("etiqueta") :: "p", "ul","h1", "td"
+let lista = document.createElement("ul");
+
+
+// agregando ese elemento como hijo
+// push a un elemento ya existente
+divContenido.appendChild(lista);
+
+let textoLI = "";
+series.forEach(function(programaTv){
+    textoLI = textoLI + `<li>${programaTv} </li>`
+
+})
+
+// console.log(textoLI);
+
+lista.innerHTML = textoLI;
+
+
+let imagen = document.createElement("img");
+
+divContenido.appendChild(imagen)
+
+//setAttribute ("nombre_attr", "valor_attr")
+imagen.setAttribute("src","https://picsum.photos/200/300")
