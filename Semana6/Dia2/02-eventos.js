@@ -80,7 +80,7 @@ irAGoogle.addEventListener("click",function(evento){
 let miFormulario = document.getElementById("formulario");
 
 // submit, es la accion de enviar datos
-miFormulario.addEventListener("submit",function(){
+miFormulario.addEventListener("submit",function(evento){
     evento.preventDefault();
     console.log("Sumbiiit!!!");
     // vamos a hacer envio de datos con JS
@@ -88,9 +88,9 @@ miFormulario.addEventListener("submit",function(){
     // console.log(miFormulario.nombres.value);
     let nuevoUsuario ={
         nombres:miFormulario.nombres.value,
-        nombres:miFormulario.apellidos.value
+        apellidos0:miFormulario.apellidos.value,
 
-    }
+    };
     console.log(nuevoUsuario);
 
 });
