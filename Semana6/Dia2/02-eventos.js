@@ -58,3 +58,18 @@ btnVer.addEventListener("click",function(){
         miInput.setAttribute("type","password")
     }
 });
+
+// capturar eventos
+
+let irAGoogle = document.createElement("a");
+irAGoogle.setAttribute("href","https://google.com");
+irAGoogle.innerText = "Llevame a Google";
+divContenido.appendChild(irAGoogle);
+
+
+// .............
+
+irAGoogle.addEventListener("click",function(evento){
+    evento.preventDefault();
+    console.log(evento);
+})
