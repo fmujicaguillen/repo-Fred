@@ -30,4 +30,16 @@ function verificarRUC(ruc){
     
 }
 
-console.log(verificarRUC("10443199212"));
+// console.log(verificarRUC("10443199212"));
+
+
+let pagoHora = +prompt("Cuanto es el pago por hora?")
+let totalHoras = 0;
+
+for(let i = 1; i <= 6; i++){
+    let cantDiaria = +prompt("Cuantas horas fueron hoy?");
+    totalHoras += cantDiaria;
+
+}
+
+console.log(`El trabajador tiene ${totalHoras} horas trabajadas con un pago de ${totalHoras*pagoHora}`)
