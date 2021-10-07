@@ -50,7 +50,7 @@
             </div>
 
         </div>
-
+    <hr>    
 
         <h2>Columnas Responsivas con BreakPoints</h2>
         <h3><code>col-xl-#</code></h3>
@@ -88,18 +88,42 @@
             <div class="col-md-2 oscuro">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.?
             </div>
+        
+        </div>
+        <hr>
+        <h3><code>col-sm-#</code></h3>
+        <h5>sm - las columnas colapsan si es menor de 576px</h5>
+        <div class="row">
+            <div class="col-sm-4 oscuro">
+                Lorem ipsum dolor sit.
+            </div>
+            <div class="col-sm-4 claro">
+                Lorem ipsum dolor sit.
+            </div>
+            <div class="col-sm-4 oscuro">
+                Lorem ipsum dolor sit.
+            </div>
+        
+        </div>
+        <hr>
+        <h3>Combinar BreakPoints</h3>
+        <h5>Podemos combinar xl lg md sm, para que los elementos con la clase col ocupen diferentes espacios segun el ancho</h5>
+        <div class="row">
+            <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 oscuro">
+                Noticia Importante!
+
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 claro">
+                Noticia Buena!
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-4 oscuro">
+                Publicidad!
+            </div>
         </div>
 
-
-
-
-
-
     </main>
-    
-
-
-
+  
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
