@@ -94,6 +94,7 @@ function calcularReporte(arrVentas){
             T3 += arrVentas[i].precio;
         }
     }
+    
     return {
         mayorAmil: T1,
         mayorAquinientos: T2,
