@@ -10,8 +10,12 @@
 <body>
 
     <div class="container-fluid">
+        <!-- Bootstrap en sus componentes, utiliza un atributo personalizado data-bs-target para referenciar a un elemento que sirva como componente -->
+        <!-- data-bs-toggle indicará el efecto a realizar -->
         <button
             class="btn btn-primary"
+            data-bs-target="#miModal"
+            data-bs-toggle="modal"
             > Abrir Modal
         </button>
     </div>
@@ -27,6 +31,15 @@
                 </div>
                 <div class="modal-body">
                     <p>Confirmar por favor</p>
+                </div>
+                <div class="modal-footer">
+                    <!-- data-bs-dismiss, cierra el modal -->
+                    <button 
+                    class="btn btn-danger"
+                    data-bs-dismiss="modal"
+                    >
+                        Cerrar
+                    </button>
                 </div>
             </div>
         </div>
