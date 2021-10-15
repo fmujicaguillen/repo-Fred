@@ -35,7 +35,7 @@ class Pokemon{
 
 }
 
-//instanciar 
+//instancia
 let pokemon1 = new Pokemon("Pikachu","Elécctrico",30,20,60);
 let pokemon2 = new Pokemon("Dragonite","Dragon",70,80,120   );
 
