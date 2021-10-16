@@ -14,7 +14,7 @@ let prepararGlaseado =()=>{
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             resolve("Glaseado Listo!");
-            // reject("se quemo el microojdas")
+            // reject("se quemo el microojdas");
 
         },3000);
     });
@@ -23,8 +23,8 @@ let prepararGlaseado =()=>{
 let cubrirTorta = () =>{
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
-            resolve("Torta decorada!");
-            // reject("Pide rapido noma");
+            // resolve("Torta decorada!");
+            reject("Pide rapido noma");
         },4000);
     });
 };
@@ -33,17 +33,21 @@ let cubrirTorta = () =>{
 
 hornearTorta()
 .then((tortaHorneada)=>{
-    console.log(tortaHorneada)
+    console.log(tortaHorneada);
     //tuvimos exito con la torta, entonces hay q ejecutar
 
-    return prepararGlaseado()
+    return prepararGlaseado();
 
 })
 .then((glaseadoListo) =>{
-    console.log(glaseadoListo)
+    console.log(glaseadoListo);
     return cubrirTorta()
 
 })
 .then((tortaDecorada) =>{
-    console.log(tortaDecorada)
+    console.log(tortaDecorada);
+})
+.catch((tortaMala)=>{
+    //cuando detecta un reject en cualquiera de las promesas se corta el proceso.
+    console.log(tortaMala);
 })
