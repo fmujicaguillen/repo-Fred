@@ -21,7 +21,7 @@ const hornearTorta = () =>{
 hornearTorta()
     .then((tortaHorneada)=>{
     console.log(tortaHorneada);
-    }).catch((tortaQuemada)=>{
-
+    })
+    .catch((tortaQuemada)=>{
     console.log(tortaQuemada);
     })
