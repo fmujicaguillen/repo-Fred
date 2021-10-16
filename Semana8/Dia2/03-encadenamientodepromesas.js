@@ -28,3 +28,22 @@ let cubrirTorta = () =>{
         },4000);
     });
 };
+
+//comencemos por la primera tarea a ejecutar
+
+hornearTorta()
+.then((tortaHorneada)=>{
+    console.log(tortaHorneada)
+    //tuvimos exito con la torta, entonces hay q ejecutar
+
+    return prepararGlaseado()
+
+})
+.then((glaseadoListo) =>{
+    console.log(glaseadoListo)
+    return cubrirTorta()
+
+})
+.then((tortaDecorada) =>{
+    console.log(tortaDecorada)
+})
