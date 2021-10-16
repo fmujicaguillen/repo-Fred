@@ -34,7 +34,30 @@ let screen = celular.pantalla
 // let {pantalla,encender,marca,memoria,color,camara} = celular
 let {pantalla,encender,marca,color} = celular
 
-console.log(pantalla);
-encender();
-console.log(color);
-console.log(marca);
+// console.log(pantalla);
+// encender();
+// console.log(color);
+// console.log(marca);
+
+
+
+//que tengo una funcion que recibe las caracteristicas de una persona
+
+let verificarPersona = ({nombre, dni, edad}) =>{
+    console.log(nombre)
+    console.log(dni),
+    console.log(edad)
+}
+
+let persona = {
+    edad: 21,
+    nombre: "Maria",
+    dni: "23232323",
+    apellidos: "Galvez",
+    hobbies: ["comer","correr"]
+}
+verificarPersona(persona)
+
+
+
+//recibiendo argumentos por un objeto
