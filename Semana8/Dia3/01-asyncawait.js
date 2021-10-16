@@ -35,4 +35,16 @@ const  usarData = async() =>{
     }
 }
 
-usarData();
+// usarData();
+
+const traerUsuarios = async()  =>{
+    try {
+        let respuesta = await fetch("https://reqres.in/api/users?page=2");
+        let datos = await respuesta.json()
+        console.table(datos.data)   
+    } catch (error) {//reject / throw
+        console.log(error)
+    }
+
+}
+traerUsuarios();
